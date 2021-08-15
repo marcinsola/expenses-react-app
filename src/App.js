@@ -29,7 +29,6 @@ const App = () => {
     console.log(expense);
   }
 
-  
 return (
   <div className="App" >
     <NewExpense onAddExpense={addExpenseHandler}/>
